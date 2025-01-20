@@ -82,9 +82,59 @@
     font-weight: 700;
     font-size: 46px;
     color: #000000;
+  
 }
 .bg-1 {
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   background-size: cover;
   height: 100vh;
+    text-align: center;
+}
+.Curriculum-container{
+    display: flex;
+    gap: 28.29px;
+    
+}
+.Curriculum{
+    padding:40.67px ;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+   
+}
+.kinder{
+     text-decoration: none;
+  font-weight: 700;
+  font-size: 15.09px;
+  color: #64C8FF;
+}
+.elementary{
+ text-decoration: none;
+  font-weight: 700;
+  font-size: 15.09px;
+  color: #F0AA00;
+}
+.middle{
+ text-decoration: none;
+  font-weight: 700;
+  font-size: 15.09px;
+  color: #8700FF;
+}
+#grad-1{
+    background-image: linear-gradient(to top,white, #DEF5FF );
+   
+}
+#grad-2{
+    background-image: linear-gradient(to top,white, #FFF4DC );
+   
+}
+#grad-3{
+    background-image: linear-gradient(to top,white, #F2E8FF );
+   
+}
+.btn-2{
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+    margin-top: 80px;
 }
