@@ -151,3 +151,30 @@
 .Our{
     margin: 60px ;
 }
+
+/* footer */
+.kids{
+    background-color: #01ACFD;
+}
+.ulu{
+    list-style: none;
+}
+.png{
+    text-decoration: none;
+   color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.kids-2{
+    color: white;
+}
+.school{
+      font-weight: 700;
+    font-size: 24px;
+}
+}
+.touch{
+    font-weight: 700;
+    font-size: 26px;
+}
