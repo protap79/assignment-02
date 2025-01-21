@@ -12,6 +12,9 @@
 }
 .navbar {
   justify-content: space-around;
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
 }
 .menu {
   list-style: none;
@@ -56,125 +59,160 @@
 }
 
 /* content */
-.empower{
-    font-weight: 700;
-    color: orange;
-    font-size: 56px;
-    
+.empower {
+  font-weight: 700;
+  color: orange;
+  font-size: 56px;
 }
-.age{
-    font-weight: 700;
-    color: black;
-    font-size: 56px;
+.age {
+  font-weight: 700;
+  color: black;
+  font-size: 56px;
 }
-.vision{
-    color: skyblue;
-    font-size: 56px;
-    font-weight: 700;
+.vision {
+  color: skyblue;
+  font-size: 56px;
+  font-weight: 700;
 }
-.enroll{
-    /* margin-left: 20px;
-    margin-right: 20px; */
-    margin: 200px 200px;
+.enroll {
+  display: flex;
+
+  align-items: center;
+
+  gap: 50px;
+  /* margin: 100px 100px; */
+  margin-left: 100px;
+  margin-right: 100px;
 }
 /* main */
-.h1{
-    font-weight: 700;
-    font-size: 46px;
-    color: #000000;
-  
+.h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: #000000;
 }
 .bg-1 {
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   background-size: cover;
-  height: 100vh;
-    text-align: center;
+  background-repeat: no-repeat;
+  /* height: 1vh; */
+  text-align: center;
 }
-.Curriculum-container{
-    display: flex;
-    gap: 28.29px;
-    
+.Curriculum-container {
+  display: flex;
+  gap: 28.29px;
+  margin-top: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 100px;
 }
-.Curriculum{
-    padding:40.67px ;
-    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
-    border-radius: 18.86px;
-   
+.Curriculum {
+  padding: 40.67px;
+  box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  border-radius: 18.86px;
 }
-.kinder{
-     text-decoration: none;
+.kinder {
+  text-decoration: none;
   font-weight: 700;
   font-size: 15.09px;
-  color: #64C8FF;
+  color: #64c8ff;
 }
-.elementary{
- text-decoration: none;
+.elementary {
+  text-decoration: none;
   font-weight: 700;
   font-size: 15.09px;
-  color: #F0AA00;
+  color: #f0aa00;
 }
-.middle{
- text-decoration: none;
+.middle {
+  text-decoration: none;
   font-weight: 700;
   font-size: 15.09px;
-  color: #8700FF;
+  color: #8700ff;
 }
-#grad-1{
-    background-image: linear-gradient(to top,white, #DEF5FF );
-   
+#grad-1 {
+  background-image: linear-gradient(to top, white, #def5ff);
 }
-#grad-2{
-    background-image: linear-gradient(to top,white, #FFF4DC );
-   
+#grad-2 {
+  background-image: linear-gradient(to top, white, #fff4dc);
 }
-#grad-3{
-    background-image: linear-gradient(to top,white, #F2E8FF );
-   
+#grad-3 {
+  background-image: linear-gradient(to top, white, #f2e8ff);
 }
-.btn-2{
-    border: none;
-    border-radius: 30px;
-    color: white;
-    background-color: orange;
-    margin-top: 80PX;
-    margin-bottom: 60px;
+.btn-2 {
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 10px 13px;
+  background-color: orange;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
 }
-.btn-3{
-    border: none;
-    border-radius: 12px;
-    color: white;
-    background-color: black;
-    margin: 80px 60px;
-    padding: 10px 61px;
-
+.btn-3 {
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+  margin: 80px 60px;
+  padding: 10px 61px;
 }
-.Our{
-    margin: 60px ;
+.btn-4 {
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background-color: black;
+  /* margin: 80px 60px; */
+  padding: 10px 61px;
 }
-
+.Our {
+  margin: 60px;
+}
+.str {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex: auto;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.storie {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
 /* footer */
-.kids{
-    background-color: #01ACFD;
+.kids {
+  background-color: #01acfd;
+  color: white;
+  display: grid;
+  padding: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
-.ulu{
-    list-style: none;
+.ulu {
+  list-style: none;
 }
-.png{
-    text-decoration: none;
-   color: white;
-    font-weight: 600;
-    font-size: 20px;
+.png {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+.sc {
+  text-align: center;
+}
+.school {
+  font-weight: 700;
+  font-size: 24px;
+}
+.tc{
+  text-align: center;
 
 }
-.kids-2{
-    color: white;
-}
-.school{
-      font-weight: 700;
-    font-size: 24px;
-}
-}
-.touch{
-    font-weight: 700;
-    font-size: 26px;
+.touch {
+  font-weight: 700;
+  font-size: 26px;
 }
