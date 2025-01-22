@@ -8,6 +8,14 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #666666;
+}
 
 .display-flex {
   display: flex;
@@ -56,6 +64,7 @@ body {
   height: 50px;
   border: none;
   font-weight: 600;
+  font-size: 15.34px;
   border-radius: 12px;
   margin-left: 186px;
 }
@@ -158,6 +167,7 @@ body {
   background-color: black;
   margin: 80px 60px;
   padding: 10px 61px;
+  align-content: center;
 }
 .btn-4 {
   border: none;
@@ -168,6 +178,9 @@ body {
 }
 .Our {
   margin: 60px;
+  font-weight: 700;
+  font-size: 46px;
+  text-align: center;
 }
 .str {
   display: flex;
@@ -193,12 +206,115 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
-.img-container {
+.stories {
+  background-color: white;
+  border-radius: 16px;
+  /* padding: 0px 0px 10px; */
+}
+.image-container {
+  border-radius: 16px;
+  width: 100%;
+  padding: px;
+}
+.kidd {
+  width: 100%;
   border-radius: 16px;
 }
-.img1 {
-  border-radius: 19px;
+.item {
+  background-color: #3cd8e8;
+  color: white;
+  position: relative;
+  padding: 10px;
+  width: 174px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 47px;
+  margin-left: 16px;
+  margin-top: -45px;
+
+  align-content: center;
+  text-align: center;
 }
+.item1 {
+  background-color: #95b226;
+  color: white;
+  position: relative;
+  padding: 10px;
+  width: 174px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 47px;
+  margin-left: 16px;
+  margin-top: -45px;
+
+  align-content: center;
+  text-align: center;
+}
+.item2 {
+  background-color: #5d58f0;
+  color: white;
+  position: relative;
+  padding: 10px;
+  width: 174px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 47px;
+  margin-left: 16px;
+  margin-top: -45px;
+
+  align-content: center;
+  text-align: center;
+}
+.item3 {
+  background-color: #95b226;
+  color: white;
+  position: relative;
+  padding: 10px;
+  width: 174px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 47px;
+  margin-left: 16px;
+  margin-top: -45px;
+
+  align-content: center;
+  text-align: center;
+}
+.item4 {
+  background-color: #95b226;
+  color: white;
+  position: relative;
+  padding: 10px;
+  width: 174px;
+  height: 40px;
+  border: none;
+  font-weight: 500;
+  border-radius: 47px;
+  margin-left: 16px;
+  margin-top: -45px;
+
+  align-content: center;
+  text-align: center;
+}
+
+.p1 {
+  padding: 20px;
+}
+
+.story,
+.img1 {
+  background-color: white;
+  border-radius: 19px;
+  padding: 0px 0px 10px;
+}
+.view {
+  text-align: center;
+}
+
 /* footer */
 .kids {
   background-color: #01acfd;
@@ -236,6 +352,36 @@ body {
   font-weight: 700;
   font-size: 26px;
 }
+.kiddo {
+  font-weight: 400;
+  font-size: 18px;
+
+  text-align: start;
+}
+.logo {
+  align-content: start;
+  margin-left: -10px;
+}
+.edu {
+  text-align: start;
+}
+.school {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: start;
+  margin-left: 38px;
+}
+
+.ulu {
+  text-align: start;
+}
+.png {
+  font-weight: 500;
+  font-size: 20px;
+}
+.sc {
+  margin-left: 60px;
+}
 
 /* media for small device*/
 @media only screen and (max-width: 576px) {
@@ -245,8 +391,8 @@ body {
   .navbar {
     justify-content: space-between;
     align-items: center;
-    /* display: flex; */
-    /* flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     padding: 5px;
     margin-top: 8px;
   }
@@ -282,9 +428,6 @@ body {
     gap: 10px;
     padding: 10px;
     margin-top: 20px;
-    /* padding-left: 80px; */
-    /* padding-right: 80px; */
-    /* margin-bottom: 100px; */
   }
   .h1 {
     margin: auto;
@@ -304,8 +447,9 @@ body {
     margin: auto;
   }
   .Our {
-    margin: 10px;
+    margin: 40px;
     text-align: center;
+    font-size: 26px;
   }
   .img1 {
     border-radius: 10px;
@@ -318,26 +462,187 @@ body {
     justify-content: start;
     align-content: start;
   }
+
+  .item1 {
+    background-color: #95b226;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 130px;
+    height: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 47px;
+    margin-left: 16px;
+    margin-top: -33px;
+    align-content: center;
+    text-align: center;
+  }
+  .item1 {
+    background-color: #95b226;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 130px;
+    height: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 47px;
+    margin-left: 16px;
+    margin-top: -33px;
+    align-content: center;
+    text-align: center;
+  }
+  .item2 {
+    background-color: #5d58f0;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 130px;
+    height: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 47px;
+    margin-left: 16px;
+    margin-top: -33px;
+    align-content: center;
+    text-align: center;
+  }
+  .item3 {
+    background-color: #95b226;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 130px;
+    height: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 47px;
+    margin-left: 16px;
+    margin-top: -33px;
+    align-content: center;
+    text-align: center;
+  }
+  .item4 {
+    background-color: #95b226;
+    color: white;
+    position: relative;
+    padding: 10px;
+    width: 130px;
+    height: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 47px;
+    margin-left: 16px;
+    margin-top: -33px;
+    align-content: center;
+    text-align: center;
+  }
+
+  .dupli {
+   
+  }
 }
 
-/* @media only screen and (min-width: 576px) {
-  .enroll {
-    display: flex;
-    flex-direction: column-reverse;
+@media only screen and (max-width: 992px) {
+  body {
+    margin: auto;
   }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  .menu {
+    list-style: none;
+
+    align-items: center;
+  }
+  .nav-links {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 45px;
+  }
+
+  .empower,
+  .age,
+  .vision {
+    font-size: 39px;
+  }
+  .imgb {
+    height: auto;
+    width: 340px;
+    margin-bottom: 50px;
+  }
+  .btn {
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+
   .Curriculum-container {
-    display: flex;
-    flex-direction: column;
+    gap: 20px;
+    padding: px;
+    margin-top: 55px;
   }
-  .str,
-  .storie {
-    display: grid;
-    grid-template-columns: repeat(2, 2);
+  .h1 {
+    margin: auto;
+    font-size: 32px;
   }
-  .kids {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+  .kind-1 {
+    margin: auto;
+  }
+
+  .Our {
+    margin: 40px;
+    text-align: center;
+    font-size: 32px;
+  }
+  .img1 {
+    border-radius: 10px;
+
+    width: 170px;
+  }
+
+  .kiddo {
+    font-weight: 400;
+    font-size: 18px;
+
+    text-align: start;
+  }
+  .logo {
     align-content: start;
+    margin-left: -10px;
   }
-} */
+  .edu {
+    text-align: start;
+  }
+  .school {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .ulu {
+    text-align: start;
+  }
+  .png {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .sc {
+    margin-left: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 1140px) {
+  .dupli {
+    display:none ;
+  }
+}
