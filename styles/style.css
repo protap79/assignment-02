@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-
+body {
+  margin: auto;
+}
 .quicksand {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -94,7 +96,7 @@
   background-image: url(../B11-A2-Kids-School/assets/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* height: 1vh; */
+
   text-align: center;
 }
 .Curriculum-container {
@@ -109,6 +111,9 @@
   padding: 40.67px;
   box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
   border-radius: 18.86px;
+}
+.kind-1 {
+  margin: 52px 115px;
 }
 .kinder {
   text-decoration: none;
@@ -143,7 +148,7 @@
   color: white;
   padding: 10px 13px;
   background-color: orange;
-  /* margin-top: 10px; */
+
   margin-bottom: 20px;
 }
 .btn-3 {
@@ -159,7 +164,6 @@
   border-radius: 12px;
   color: white;
   background-color: black;
-  /* margin: 80px 60px; */
   padding: 10px 61px;
 }
 .Our {
@@ -174,11 +178,26 @@
   padding-left: 100px;
   padding-right: 100px;
 }
+.bg-2 {
+  background-image: url(../B11-A2-Kids-School/assets/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#grad-x {
+  background-image: linear-gradient(to bottom, white, rgb(246, 215, 160));
+}
+
 .storie {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+}
+.img-container {
+  border-radius: 16px;
+}
+.img1 {
+  border-radius: 19px;
 }
 /* footer */
 .kids {
@@ -187,9 +206,6 @@
   display: grid;
   padding: 100px;
   grid-template-columns: repeat(3, 1fr);
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .ulu {
   list-style: none;
@@ -201,6 +217,11 @@
   font-weight: 600;
   font-size: 20px;
 }
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
 .sc {
   text-align: center;
 }
@@ -208,11 +229,115 @@
   font-weight: 700;
   font-size: 24px;
 }
-.tc{
+.tc {
   text-align: center;
-
 }
 .touch {
   font-weight: 700;
   font-size: 26px;
 }
+
+/* media for small device*/
+@media only screen and (max-width: 576px) {
+  body {
+    margin: auto;
+  }
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 5px;
+    margin-top: 8px;
+  }
+  .imgb {
+    height: 380px;
+    width: 340px;
+  }
+  .scl {
+    display: none;
+  }
+  .imgg {
+    width: 80px;
+    height: 80px;
+  }
+  .nav-links {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+  .btn {
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+  .enroll {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Curriculum-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    /* padding-left: 80px; */
+    /* padding-right: 80px; */
+    /* margin-bottom: 100px; */
+  }
+  .h1 {
+    margin: auto;
+    font-size: 30px;
+  }
+  .kind-1 {
+    margin: auto;
+  }
+  .stories {
+    display: none;
+  }
+  .storie {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid: 5px;
+    margin: auto;
+  }
+  .Our {
+    margin: 10px;
+    text-align: center;
+  }
+  .img1 {
+    border-radius: 10px;
+    height: auto;
+    width: 170px;
+  }
+  .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+  }
+}
+
+/* @media only screen and (min-width: 576px) {
+  .enroll {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Curriculum-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .str,
+  .storie {
+    display: grid;
+    grid-template-columns: repeat(2, 2);
+  }
+  .kids {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+  }
+} */
